@@ -43,3 +43,21 @@ link: http://challenges.guinean-cybertaskforce.com:5000/
 link: https://www.youtube.com/watch?v=5F_32HwJFDg
 
 #### solution
+
+### Capture_south-africa - AU super marché
+
+Tu fais de la filature depuis plusieurs semaines sur un membre actif de la CyberBadCorp.
+
+Tous les jours, il se rend dans cette même enseigne pour faire ses courses. 
+
+Tu as remarqué qu'il prend assez de temps dans le rayon des céréales.
+
+Pointilleux sur les détails, tu décides de prendre une séquence photos des produits de ce rayon pour les analyser.
+
+Sans surprise, tu trouves que cette image est un peu particulière à vue d’œil. 
+
+Arriveras-tu à trouver des informations qui feront avancer ta mission?
+
+Flag: GCSC2022{flag_ici}
+#### solution
+
