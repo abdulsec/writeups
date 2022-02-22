@@ -27,3 +27,19 @@ i copied the discord link  then replaced the lien_serveur_discord in the flag
 GCSC2022{https://discord.gg/3gvtd8N6}
 
 ### Capture-canada IP_publique x Collaborer x Interagir
+
+Houhou!
+
+On te présente ce formulaire du site web en cours de construction.
+
+Interagit avec le serveur de la CyberBadCorp et trouve-lui un usage non sollicité.
+
+Indice: -5 points
+
+Flag: GCSC2022{flag_ici}
+
+link: http://challenges.guinean-cybertaskforce.com:5000/
+
+link: https://www.youtube.com/watch?v=5F_32HwJFDg
+
+#### solution
