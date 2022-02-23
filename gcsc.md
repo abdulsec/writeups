@@ -57,6 +57,7 @@ as you seen in the image above , my idea was to add a long text in all the field
 ![response error](screenshot/img2.png)
 
 in the first error line , you'll see the flag  GCSC%7BUt1llisseZ_t0ujoUr$_c0ll4boRat0R%7D
+
 just  url decode the  flag  and replace  GCSC to  GCSC2022
 
 the valide valide flag was GCSC2022{Ut1llisseZ_t0ujoUr$_c0ll4boRat0R}
@@ -93,6 +94,7 @@ Cela a crypté uniquement ton rapport d’avancement sur ladite mission.
 Retrouve vite la clef de déchiffrement et continue a les traquer.
 
 Flag: GCSC2022{flag_ici}
+
 link: https://drive.google.com/file/d/1QGIrPRp-vLr8W2vQsJfGCHiWJ58tFWQJ/view?usp=sharing
 
 #### solution
@@ -115,4 +117,5 @@ after two munite , we have the password : Catsandcows
 now , i was able the  extract the zip file using the password :  Catsandcows
 as i use linux , i used only cat note.txt  to got the flag  GCSC{p4$sw0rD_cr4ck1nG_br34kZ_GPUs}
 now you have just to replace GCSC to GCSC2022
+
 the final flag was:  GCSC{p4$sw0rD_cr4ck1nG_br34kZ_GPUs}
