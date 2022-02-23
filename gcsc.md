@@ -34,6 +34,20 @@ On te présente ce formulaire du site web en cours de construction.
 
 Interagit avec le serveur de la CyberBadCorp et trouve-lui un usage non sollicité.
 
+### Capture-cameroon Voler des informations avec classe. Quel art !
+Cette nuit encore, un nouvel incident de sécurité s'est produit du côté de la préfecture de Kankan.
+
+Apres avoir eu un accès au SI, le malveillant tente d'exfiltrer des informations par l'envoi d'une image d'apparence anodine.
+
+Il semble que c'est la technique utilisée par la CyberBadCorp avant que tu ne rejoignes le rang des cybercombattants guinéens.
+
+Analyse attentivement cette image et trouve l'information exfiltrée.
+
+Flag: GCSC2022{flag_ici}
+
+link: https://drive.google.com/file/d/1RhUenex0V-_OFWJ8nJzUUB6QDEIUfIn9/view?usp=sharing
+
+
 Indice: -5 points
 
 Flag: GCSC2022{flag_ici}
