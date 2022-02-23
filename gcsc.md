@@ -280,5 +280,18 @@ now i have to use the three password to validate the challenge
 
 the final flag are GCSC2022{p1ntap_fd1972_AdDiCtIoN)
 
+### Campture-Angola quelle audace
+Les membres de la CyberBadCorp décident de célébrer leur dernier coup qui a permis l'arrêt de nombreux SI de l'administration guinéenne.
 
+Sur la mission depuis plusieurs semaines, tu sais qu'ils communiquent par tous les moyens. 
+
+Alors tu tentes le coup par le coup : tu t'y invites et enregistres toutes les musiques jouées à cette soirée.
+
+Tu as vu combien ils étaient en feu particulièrement sur cette musique. Analyse-la et dis-nous ce que tu trouves.
+
+Flag: GCSC2022{flag_ici}
+
+link: https://drive.google.com/file/d/1vKmVkd3dwDqffSAekIz4vJuz6pDOKB49/view?usp=sharing
+
+#### solution
 
