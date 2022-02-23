@@ -114,8 +114,17 @@ now its time to crack the file
 full cmd : fcrackzip -b -D -p /home/abdulsec/wordlist/rockyou.txt -u ./note.zip
 after two munite , we have the password : Catsandcows
 ![cracking the zip file](screenshot/img4.png)
+
 now , i was able the  extract the zip file using the password :  Catsandcows
 as i use linux , i used only cat note.txt  to got the flag  GCSC{p4$sw0rD_cr4ck1nG_br34kZ_GPUs}
 now you have just to replace GCSC to GCSC2022
 
 the final flag was:  GCSC{p4$sw0rD_cr4ck1nG_br34kZ_GPUs}
+
+### Capture-United-states iles vivent avec le rsa en france
+On te donne le crytosystème utilisé : message, clé privée et clé publique.
+
+Indice: -5 points
+Flag: GCSC2022{flag_ici}
+
+link: https://drive.google.com/drive/folders/1p9aQ2-PMoY5yXjqQLj83CH-JDXV1qvgR?usp=sharing
