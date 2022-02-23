@@ -226,15 +226,23 @@ if you dont have sqlite in your computer then  , install  it
 
 to use the db type in your computer the following cmd 
 sqlite3 mobile.db
+
 SQLite version 3.35.5 2021-04-19 18:32:05
 Enter ".help" for usage hints.
+
 sqlite> .database
+
 main: /home/abdulsec/labs/ctf/mobile.db r/w
+
 sqlite> .tables
+
 users
+
 sqlite> select * from users
    ...> ;
-John|ODI3MDQ0MGMwZTk0MTExZDExZmFmMzg1MTI1Nzc4ZTc= 
+   
+John|ODI3MDQ0MGMwZTk0MTExZDExZmFmMzg1MTI1Nzc4ZTc=
+
 Marie|NDFkNTM4YTcxYjJhYTYwMDRkNTM0MjM3NzEwNDFjOWMK  
 
 Luc|NGVmY2RhYzg1YzZjNDk0YjNjZWY4NzgxY2M2Mzk4MDUK    
@@ -244,7 +252,9 @@ now you have user with base64 encoded password
 its time to decode the password
 
 when you decode the password ODI3MDQ0MGMwZTk0MTExZDExZmFmMzg1MTI1Nzc4ZTc=  of John you got this 8270440c0e94111d11faf385125778e7
+
 when you decode the password of NDFkNTM4YTcxYjJhYTYwMDRkNTM0MjM3NzEwNDFjOWMK  Marie you got this 41d538a71b2aa6004d53423771041c9c
+
 when you decode the password of NGVmY2RhYzg1YzZjNDk0YjNjZWY4NzgxY2M2Mzk4MDUK Luc you got this  4efcdac85c6c494b3cef8781cc639805
 
 now we got md5 password hash , we need again to crack the password to got the plain text password
