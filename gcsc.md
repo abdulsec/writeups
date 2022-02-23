@@ -172,3 +172,6 @@ after i uploaded the image in  the  platform   , i got a differnt view supperimp
 here the result of on of the image that showed the  flag
 
 ![flag image](screenshot/image_rgb_1.png)
+
+i just changed the GCSC from the image  to GCSC2022 to validate the challenge
+
