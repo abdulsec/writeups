@@ -198,5 +198,74 @@ here the result of on of the image that showed the  flag
 
 i just changed the GCSC from the image  to GCSC2022 to validate the challenge
 
+### Capture-Nigeria Mots de passe d'une application étrange
+
+Les régions minières du pays attirent de plus en plus la CyberBadCorp.
+
+Trois de leurs membres décident de s'installer dans la région de Kamsar afin de dépouiller le plus d'entreprises d'exploitation.
+
+En cours de chemin, ils s'arrêtent un moment dans un village pour manger et se reposer avant de reprendre la route. Ils en profitent aussi pour recharger leurs appareils dans un télécentre.
+
+Le gérant du télécentre, agent secret, dumpe le contenu de leurs téléphones qu'il te transmet à des fins d'analyse pour des questions de sécurité nationale. 
+
+Lors de tes analyses, tu remarques qu'à un moment donné, tous les trois ont utilisé le même téléphone pour se connecter à une application de messagerie instantanée étrange. 
+
+Tu as vite retrouvé la base de données reliée à cette application. Maintenant, trouve leurs mots de passe.
+
+Flag: GCSC2022{Password1_Password2_Password3)
+
+link: https://drive.google.com/file/d/1YL5jgnjy1-w5k9vdIVofSjQy2J9uVjr3/view?usp=sharing
+
+#### solution
+
+when i opened the google driver link https://drive.google.com/file/d/1YL5jgnjy1-w5k9vdIVofSjQy2J9uVjr3/view?usp=sharing
+i saw a file that has an extension .db with the name BD application mobile then  i downloaded the  file  locally and i changed the name BD application mobile.db to mobile.db
+if you google  the extension .db you will it's  a sqlite database
+
+if you dont have sqlite in your computer then  , install  it
+
+to use the db type in your computer the following cmd 
+sqlite3 mobile.db
+SQLite version 3.35.5 2021-04-19 18:32:05
+Enter ".help" for usage hints.
+sqlite> .database
+main: /home/abdulsec/labs/ctf/mobile.db r/w
+sqlite> .tables
+users
+sqlite> select * from users
+   ...> ;
+John|ODI3MDQ0MGMwZTk0MTExZDExZmFmMzg1MTI1Nzc4ZTc= 
+Marie|NDFkNTM4YTcxYjJhYTYwMDRkNTM0MjM3NzEwNDFjOWMK  
+
+Luc|NGVmY2RhYzg1YzZjNDk0YjNjZWY4NzgxY2M2Mzk4MDUK    
+
+sqlite> 
+now you have user with base64 encoded password
+its time to decode the password
+
+when you decode the password ODI3MDQ0MGMwZTk0MTExZDExZmFmMzg1MTI1Nzc4ZTc=  of John you got this 8270440c0e94111d11faf385125778e7
+when you decode the password of NDFkNTM4YTcxYjJhYTYwMDRkNTM0MjM3NzEwNDFjOWMK  Marie you got this 41d538a71b2aa6004d53423771041c9c
+when you decode the password of NGVmY2RhYzg1YzZjNDk0YjNjZWY4NzgxY2M2Mzk4MDUK Luc you got this  4efcdac85c6c494b3cef8781cc639805
+
+now we got md5 password hash , we need again to crack the password to got the plain text password
+
+after a few minutes of googling  , i found this  free website  https://crackstation.net/ for password hash cracking
+
+after  cracking  John md5 password i got this :  p1ntap
+after  cracking  Marie md5 password i got this :  fd1972
+after  cracking  Luc md5 password i got this :   AdDiCtIoN
+
+now we have 
+
+user   password
+
+John | p1ntap
+Marie| fd1972
+Luc  | AdDiCtIoN
+
+now i have to use the three password to validate the challenge
+
+the final flag are GCSC2022{p1ntap_fd1972_AdDiCtIoN)
+
 
 
