@@ -94,6 +94,16 @@ after editing the image using vim cereals.svg  , i have found in  the  second  t
 
 <-- Created with Inkscape (http://www.inkscape.org/) -->
 as it seen that the image was created using Inkscape , i decide to install Inkscape in my computer
+after installing  Inkscape ,  i opened the cereals.svg  image with Inkscape then   i found a weired barcode  , i clicked in the barcode  and  zoomed the barcode
+
+the image looked like this 
+
+![barcode image](screenshot/barcodeimage.png)
+
+i have installed a barcode scanner in my android , then i scanned  it to find the  flag
+
+
+i used this flag to validate the challenge : GCSC{baR_c0d3$_oR_J4lL_b4rZ}
 
 
 ### Capture-chad Clé de déchiffrement ou décryptage?
