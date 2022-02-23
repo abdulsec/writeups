@@ -81,7 +81,20 @@ Arriveras-tu à trouver des informations qui feront avancer ta mission?
 
 Flag: GCSC2022{flag_ici}
 
+link: https://drive.google.com/file/d/1mvDSKrvHt26G4rsqmiRO25_om3pjH2RL/view?usp=sharing
+
 #### solution
+
+when i opened the  google driver link , i have found that it was an svg image , called cereals.svg
+then first can  thing that came to my mind was to zoom the image as  to see if i can find the  flag , but i was totally wrong
+after a few minute of testing different technique like  like  exiftool cereals.svg , i found nothing useful
+after litle bit of break  , i got the idea to  edit the image using an  editor of text , me i used vim for that
+
+after editing the image using vim cereals.svg  , i have found in  the  second  that the image image was created using Inkscape
+
+<-- Created with Inkscape (http://www.inkscape.org/) -->
+as it seen that the image was created using Inkscape , i decide to install Inkscape in my computer
+
 
 ### Capture-chad Clé de déchiffrement ou décryptage?
 
@@ -174,4 +187,6 @@ here the result of on of the image that showed the  flag
 ![flag image](screenshot/image_rgb_1.png)
 
 i just changed the GCSC from the image  to GCSC2022 to validate the challenge
+
+
 
