@@ -270,10 +270,13 @@ now we have
 user   password
 
 John | p1ntap
+
 Marie| fd1972
+
 Luc  | AdDiCtIoN
 
 now i have to use the three password to validate the challenge
+
 
 the final flag are GCSC2022{p1ntap_fd1972_AdDiCtIoN)
 
