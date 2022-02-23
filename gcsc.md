@@ -156,3 +156,19 @@ Flag: GCSC2022{flag_ici}
 
 link: https://drive.google.com/file/d/1RhUenex0V-_OFWJ8nJzUUB6QDEIUfIn9/view?usp=sharing
 
+#### solution
+when i opened the google driver link , i have found this  image
+
+![abtract.png](screenshot/abstrait.png)
+
+now its time  google  to learn more about steganalysis
+after few munites of googling , i have found this web site  https://aperisolve.fr/
+
+What is this ?
+
+Aperi'Solve is an online platform which performs layer analysis on image. The platform also uses zsteg, steghide, outguess, exiftool, binwalk, foremost and strings for deeper steganography analysis. The platform supports the following images format: .png, .jpg, .gif, .bmp, .jpeg, .jfif, .jpe, .tiff...
+
+after i uploaded the image in  the  platform   , i got a differnt view supperimposed of image 
+here the result of on of the image that showed the  flag
+
+![flag image](screenshot/image_rgb_1.png)
