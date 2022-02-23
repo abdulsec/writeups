@@ -128,3 +128,18 @@ Indice: -5 points
 Flag: GCSC2022{flag_ici}
 
 link: https://drive.google.com/drive/folders/1p9aQ2-PMoY5yXjqQLj83CH-JDXV1qvgR?usp=sharing
+#### solution 
+
+when i  clicked in the google driver  link https://drive.google.com/drive/folders/1p9aQ2-PMoY5yXjqQLj83CH-JDXV1qvgR?usp=sharing , 
+i have found a folder called RSA  that has 
+three files  cl3_publique.txt  cl3_priv3e.txt message_chiffr3.txt
+after a few minute googling , i found this web site https://8gwifi.org/rsafunctions.jsp
+i copied cl3_publique.txt text and i pasted it in Public Key field
+i copied cl3_priv3e.txt text and i pasted it in private key field
+i copied message_chiffr3.txt and i pasted it ClearText Message field
+
+![rsa decrypt](screenshot/img5.png)
+
+in the output i got the flag GCSC2022{RSA_cetait_facile_quand_meme} an i used that flag to validate the challenge
+
+
