@@ -40,9 +40,13 @@ Flag: GCSC2022{flag_ici}
 
 link: http://challenges.guinean-cybertaskforce.com:5000/
 
-link: https://www.youtube.com/watch?v=5F_32HwJFDg
+link2: https://www.youtube.com/watch?v=5F_32HwJFDg
 
 #### solution
+
+the link 1  http://challenges.guinean-cybertaskforce.com:5000/ was for the ctf challenge and second link was the La Fouine - Trois mots
+thanks for the second  link too (i like la fouine)
+
 
 ### Capture_south-africa - AU super marché
 
@@ -60,4 +64,6 @@ Arriveras-tu à trouver des informations qui feront avancer ta mission?
 
 Flag: GCSC2022{flag_ici}
 #### solution
+
+
 
