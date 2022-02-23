@@ -47,6 +47,10 @@ link2: https://www.youtube.com/watch?v=5F_32HwJFDg
 the link 1  http://challenges.guinean-cybertaskforce.com:5000/ was for the ctf challenge and second link was the La Fouine - Trois mots
 thanks for the second  link too (i like la fouine)
 
+when i opened the link 1  http://challenges.guinean-cybertaskforce.com:5000/  , i have found that the page has a form  for registration
+the thing that came in my mind  was to try for sql sqli  , but i abandoned that  filed all field 
+
+photo
 
 ### Capture_south-africa - AU super marché
 
