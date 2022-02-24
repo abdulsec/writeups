@@ -295,3 +295,35 @@ link: https://drive.google.com/file/d/1vKmVkd3dwDqffSAekIz4vJuz6pDOKB49/view?usp
 
 #### solution
 
+when i opened the google driver link https://drive.google.com/file/d/1vKmVkd3dwDqffSAekIz4vJuz6pDOKB49/view?usp=sharing
+i have found  an audio file , then i downloaded it locally , but i have no idea  what to do with the audio
+after a few hour spend in youtube  , i  have  now idea how to find flag  in mp3
+in all the recommendation for the tools , i choose to use https://www.sonicvisualiser.org/
+
+sonicvisualiser : Sonic Visualiser is an application for viewing and analysing the contents of music audio files
+
+the first thing i did was to open the audio file with sonicvisualiser
+
+![audio file in sonicvisualiser](screenshot/img6.png)
+
+now go layer  then   add  spectogram    with all channel mixed
+
+![spectogram](screenshot/img9.png)
+
+now play song until the weird song , then made pause and zoom the image  , you will got the flag
+
+![flag image](screenshot/img11.png)
+
+in the image you have this flag : GCSC{C'3sT_5oN_oU_1m4g3?}
+
+now replace just  GCSC to  GCSC2020{C'3sT_5oN_oU_1m4g3?} and validate the challenge
+
+### Game over 
+
+thank you for  creating  this amazing ctf challenge , to be honest with you  i never liked ctf challenge , but after this i will try to learn more 
+about ctf related challenge 
+
+stay safe and healthy
+
+best regards
+abdulsec
